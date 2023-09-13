@@ -79,6 +79,7 @@ body {
     box-shadow: 3px 3px 5px rgb(86, 86, 86);
     cursor: pointer;
     transition: 0.3s;
+    user-select: none;
 }
 
 .choose_another_user:hover {
