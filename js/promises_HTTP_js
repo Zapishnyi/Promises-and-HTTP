@@ -6,6 +6,7 @@ function delay(ms) {
 function clear_base() {
   document.querySelector(".base_layer").remove();
 }
+// search field creation
 let search_field = document.createElement("input");
 search_field.className = "search_field";
 search_field.placeholder = "Please enter name you are looking for...";
