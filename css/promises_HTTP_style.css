@@ -27,6 +27,12 @@ body {
 
 }
 
+.search_field {
+    margin-bottom: 20px;
+    font-size: 20px;
+    width: 50%;
+}
+
 .user_name {
     background-color: azure;
     border-radius: 4px;
