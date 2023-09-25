@@ -87,7 +87,7 @@ function users_list_display() {
       document.querySelector(".base_layer").appendChild(header);
     });
 }
-// creates user posts list, based on choosen user, data received from Jasonplaceholder data
+// creates user posts list, based on choosen user, data received from Jasonplaceholder
 function user_posts_display(cliked_item) {
   let user_id_name = cliked_item.target.innerText.split(" - ");
   let base_mat = document.createElement("div");
